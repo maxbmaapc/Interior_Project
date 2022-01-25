@@ -71,7 +71,12 @@ body {
     letter-spacing: 0px;
     color: #333333;
     opacity: 1;
+    cursor: pointer;
 
+}
+.blog:hover {
+    text-decoration-line: underline;
+ 
 }
 .about {
     width: 47px;
@@ -103,4 +108,75 @@ body {
 .block-right {
     display: flex;
     
+}
+.text {
+    margin: 162px auto 403px 485px ;
+    width: 737px;
+    height: 183px;
+    text-align: left;
+    font: normal normal 800 72px/85px Open Sans;
+    letter-spacing: 0.72px;
+    color: #333333;
+    opacity: 1;
+}
+.colortext {
+    margin-top: -500px;
+    margin-left: 578px;
+    text-align: left;
+    font: normal normal 800 72px/85px Open Sans;
+    letter-spacing: 0.72px;
+    color: #FF9C41;
+    opacity: 1;
+    
+}
+.subtext {
+    width: 439px;
+    height: 70px; 
+    margin: 50px 0 0 485px;
+    text-align: left;
+    font: normal normal 600 16px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+
+}
+.links {
+    margin: 141px 0 0 215px;
+    display: flex;
+    width: 101px;
+    justify-content: space-between;
+
+}
+.twitter {
+    width: 18px;
+}
+.explore {
+    margin: -35px 0 0 485px;
+    background: transparent url('/desktop/header/button.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 230px;
+    height: 55px;
+    border: transparent;
+}
+.firstsection {
+    background: transparent url('./img/image\ 2.png');
+    height: 800px;
+    width: 100%;
+}
+.container2 {
+    width: 992px;
+    max-width: 100%;
+    margin: auto auto auto 215px;
+    /* margin-left: 215px; */
+}
+.service {
+    display: flex;
+    padding-top: 159px;
+    width: 462px;
+    height: 96px;
+    text-align: left;
+    font: normal normal 800 70px/40px Open Sans;
+    letter-spacing: 0.7px;
+    color: #FFFFFF;
+    opacity: 1;
 }
