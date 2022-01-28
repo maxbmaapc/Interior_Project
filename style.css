@@ -107,6 +107,7 @@ body {
     opacity: 1;
     width: 230px;
     height: 55px;
+    transition: 0.2s;
     background-color: #FF9C41;
     border: transparent;
     border-radius: 37px;
@@ -214,6 +215,7 @@ body {
 .section-two__button {
     background: transparent;
     text-align: left;
+    transition: 0.2s;
     text-decoration: underline;
     font: normal normal bold 20px/24px Open Sans;
     letter-spacing: 0.2px;
@@ -276,7 +278,7 @@ body {
 .section-four__video {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 .section-four__unit-1 {
     height: 205px;
@@ -343,6 +345,7 @@ body {
 }
 .section-five__button {
     cursor: pointer;
+    transition: 0.2s;
     border-radius: 37px;
     border: 3px solid #FF9C41;
     font: normal normal bold 16px/24px Open Sans;
@@ -499,6 +502,7 @@ body {
  .section-seven__button {
     margin: 56px 0 0 60px;
     align-self: center;
+    transition: 0.2s;
     cursor: pointer;
     border-radius: 37px;
     border: transparent;
@@ -533,23 +537,22 @@ body {
 }
 .section-eight__projects {
     display: flex;
+    background: #272727;
     margin-left: 216px;
-    height: 745px;
+    height: 744px;
     width: 1385px;
 }
-.section-eight__img {
-    cursor: pointer; 
-}
 .section-eight__img:hover {
-    background: transparent url('./projects/project.png');
-    opacity: 0.8;
+    background-image: url('./projects/project.png');
+    opacity: 0.6;
+    cursor: pointer; 
 }
 .footer {
     width: 100%;
 }
 .footer__container {
     width: 100%;
-    height: 312px;
+    height: 261px;
 }
 .footer__social {
     display: flex;
@@ -594,4 +597,14 @@ body {
 }
 .footer__feature {
     margin-bottom: 10px;
+}
+.footer__logo {
+    margin: -112px 0px 93px 1262px;
+}
+.footer__unit {
+    text-align: left;
+    font: normal normal normal 14px/24px Open Sans;
+    letter-spacing: 0.14px;
+    color: #333333;
+    margin: -79px auto auto 1261px;
 }
