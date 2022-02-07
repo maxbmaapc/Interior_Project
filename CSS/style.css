@@ -190,13 +190,20 @@ body {
     justify-content: space-between;
 }
 .section-two__block {
-    height: 252px;
+    height: 359px;
     width: 238px;
     text-align: left;
     font: normal normal normal 16px/24px Open Sans;
     letter-spacing: 0.16px;
     color: #FFFFFF;
     opacity: 1;
+}
+.section-two__description {
+    height: 168px;
+    margin-bottom: 49px;
+}
+.section-two__description-mobile {
+    display: none;
 }
 .section-two__subtitle {
     height: 86px;
@@ -206,11 +213,6 @@ body {
     letter-spacing: 0.34px;
     color: #FFFFFF;
     opacity: 1; 
-}
-.section-two__link {
-    display: flex;
-    justify-content: space-between;
-    padding: 79px 119px 0 0;
 }
 .section-two__button {
     background: transparent;
