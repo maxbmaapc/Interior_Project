@@ -1,0 +1,14 @@
+@media (max-width: 1500px) {
+    .our-team__description {
+        margin: 0 auto;
+    }
+    .article__block {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1080px) {
+    .header__logo {
+        display: none;
+    }
+    
+}
