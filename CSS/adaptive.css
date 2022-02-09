@@ -5,10 +5,34 @@
     .article__block {
         margin: 0 auto;
     }
+    .our-service__container {
+        margin: 0 auto;
+    }
+    .our-service__title {
+        margin: 0 auto;
+        font: normal normal 800 50px/40px Open Sans;
+    }
+    .our-service__subtitle {
+        font: normal normal 800 30px/40px Open Sans;
+
+    }
 }
 @media (max-width: 1080px) {
+    .our-team__frame-3,
+    .our-team__frame-4,
+    .our-team__frame-5,
+    .our-team__frame-6,
+    .our-team__staff,
+    .our-team__work {
+        display: none;
+    }
+
+    .header__title {
+        margin: 0 auto;
+    }
     .header__logo {
         display: none;
     }
+    
     
 }

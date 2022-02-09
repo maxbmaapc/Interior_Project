@@ -1,5 +1,5 @@
 * {
-    border: 1px solid;
+    border: 1px salmon solid;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,6 +9,9 @@
 .our-team__grid-mobile,
 .projects__example-mobile {
     display: none;
+}
+html {
+    overflow-x: hidden;
 }
 body {
     max-width: 1600px;
@@ -94,7 +97,8 @@ body {
 }
 .header__title {
     margin: 10.2% auto 0px 30.3%;
-    width: 737px;
+    width: 100%;
+    max-width: 737px;
     height: 183px;
     text-align: left;
     font: normal normal 800 72px/85px Open Sans;
@@ -179,16 +183,15 @@ body {
     width: 100%;
 }
 .our-service__container {
-    position: absolute;
     width: 100%;
+    padding-top: 158px;
     max-width: 992px;
-    margin: auto auto auto 215px;  
+    margin-left:  215px;  
 }
 .our-service__title{
     display: flex;
-    margin: 158px 0 45px 0;
     width: 462px;
-    height: 96px;
+    height: 141px;
     text-align: left;
     font: normal normal 800 70px/40px Open Sans;
     letter-spacing: 0.7px;
@@ -327,13 +330,15 @@ body {
 .single-family__block-1 {
     position: relative;
     height: 100%;
-    width: 785px;
+    width: 100%;
+    max-width: 785px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 0.7;
 }
 .single-family__unit {
     margin: 202px 215px;
-    width: 344px;
+    width: 100%;
+    max-width: 344px;
     height: 414px;
     color: #333333;
 }
@@ -441,50 +446,59 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 91.5px auto 50px;
-    width: 1171px;
+    max-width: 1171px;
+    width: 100%;
     height: 955px;
 }
 .our-team__frame-1 {
     background: url('/desktop/portraits/portrait\ 1.png');
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     height: 360px;
 }
 .our-team__frame-2 {
     background: url('/desktop/portraits/portrait\ 2.png');
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     height: 360px;
 }
 .our-team__frame-3 {
     background: url('/desktop/portraits/portrait\ 3.png');
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     height: 360px;
 }
 .our-team__frame-4 {
     background: url('/desktop/portraits/portrait\ 4.png');
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     height: 360px;
 }
 .our-team__frame-5 {
     background: url('/desktop/portraits/portrait\ 5.png');
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     height: 360px;
 }
 .our-team__frame-6 {
     background: url('/desktop/portraits/portrait\ 6.png');
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     height: 360px;
 }
 .our-team__audio {
     align-self: flex-end;
     position: relative;
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     opacity: 0.8;
 }
 .our-team__staff {
     display: flex;
     justify-content: space-between;
     margin: 20px 0 0 0;
-    width: 1170px;
+    width: 100%;
+    max-width: 1170px;
     height: 33px;  
 }
 .our-team__img {
@@ -502,7 +516,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 66px;
-    width: 1170px;
+    width: 100%;
+    max-width: 1170px;
     height: 33px; 
 }
 .our-team__position {
@@ -604,7 +619,8 @@ footer {
 .footer__container {
     display: flex;
     justify-content: space-between;
-    width: 1170px;
+    width: 100%;
+    max-width: 1170px;
     margin: 0 auto;
 }
 .footer__menu {
