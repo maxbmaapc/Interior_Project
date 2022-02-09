@@ -6,7 +6,7 @@
 .single-family__circle,
 .our-team__grid,
 .projects__example,
-.footer__box {
+.footer__menu {
     display: none;
 }
 body {
@@ -239,6 +239,9 @@ body {
     background: url('/mobile/img/portrait\ 1\ mob.png');
     height: 310px;
 }
+.our-team__audio {
+    width: 320px;
+}
 .our-team__name {
     text-align: center;
     margin-top: 10px;
@@ -307,7 +310,7 @@ body {
     letter-spacing: 0.28px;
 }
 .projects__panel-mobile {
-    background: url('/mobile/img/project\ 1\ mob.png');
+    background: url('/mobile/img/project.png');
     height: 450px;
 }
 .projects__panel {
@@ -327,17 +330,48 @@ body {
 .projects__circle--active {
     opacity: 1;
 }
-.footer__container {
+footer {
     height: 165px;
+    padding: 0;
+}
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 35px 0 15px;
+    height: 125px;
+    width: 100%;
+    margin: 0;
+}
+.footer__menu-mobile {
+    display: flex;
+    justify-content: space-between;
+}
+h2 {
+    font: normal normal bold 14px/24px Open Sans;
+    letter-spacing: 0.14px;
+}
+.footer__aside {
+    flex-direction: row-reverse;
+    width: 100%;
+    height: auto;
+}
+.footer__links {
+    align-self: center;
+    margin-right: -20px;
 }
 .footer__block {
-    width: 270px;
-    margin: 0;
-    flex-wrap: wrap;
-    margin-left: 15px;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    height: 48px;
 }
-.footer__about {
-    width: 58px;
-    font: normal normal bold 14px/24px Open Sans;
-    letter-spacing: 0.14px; 
+.footer__logo {
+    margin-bottom: 13px;
+}
+.footer__rights {
+    font: normal normal normal 12px/24px Open Sans;
+    letter-spacing: 0.12px;
+    width: 107px;
+    height: 60px;
 }

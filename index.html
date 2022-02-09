@@ -38,9 +38,9 @@
         <p class="header__paragraph">Creating convenient and attractive interiors for a wide variety of purposes. Full support in the selection of finish materials, furnitures, equipment, and accessories.</p>
         <button class="header__button">Explore our work</button>
         <div class="header__links">
-            <span class="header--facebook"></span>
-            <span class="header--twitter"></span>
-            <span class="header--instagram"></span>
+            <span class="header__facebook"></span>
+            <span class="header__twitter"></span>
+            <span class="header__instagram"></span>
         </div>
     </header>
     <section class="our-service">
@@ -122,7 +122,9 @@
                 <p class="our-team__article-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur.</p>
             </div>
             <div class="our-team__grid-mobile">
-                <div class="our-team__frame-mobile"></div>
+                <div class="our-team__frame-mobile">
+                    <audio class="our-team__audio" controls src="/audio/audio.mp3"></audio>
+                </div>
                 <p class="our-team__name">Raymond Ellis</p>
                 <p class="our-team__position">CEO</p>
                 <div class="our-team__panel">
@@ -207,47 +209,93 @@
     </section>
     <footer class="footer">
         <div class="footer__container">
-            <div class="footer__social">
-                <span class="header--facebook"></span>
-                <span class="header--twitter"></span>
-                <span class="header--instagram"></span>
+            <div class="footer__menu">
+                <div class="footer__unit">
+                    <div class="footer__column" >
+                        <a href=""><h1>About</h1></a>
+                        <ul class="footer__list">
+                            <li><p>Team</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__unit">
+                    <div class="footer__column" >
+                        <a href=""><h1>Services</h1></a>
+                        <ul class="footer__list">
+                            <li><p>Architectural</p></li>
+                            <li><p>Expediting</p></li>
+                            <li><p>Consultant</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__unit footer__unit--margin-left">
+                    <div class="footer__column" >
+                        <a href="">
+                            <h1>Projects</h1>
+                        </a>
+                        <ul class="footer__list">
+                            <li><p>Single Family</p></li>
+                            <li><p>Multi Family</p></li>
+                            <li><p>Mixed Use</p></li>
+                            <li><p>Restaurant</p></li>
+                            <li><p>Hospitality</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__unit footer__unit--padding-left">
+                    <div class="footer__column" >
+                        <a href="">
+                            <h1>Blog</h1>
+                        </a>
+                        <ul class="footer__list">
+                            <li><p>News</p></li>
+                            <li><p>Case Studies</p></li>
+                            <li><p>Interviews</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__unit">
+                    <div class="footer__column" >
+                        <a href=""><h1>Contact</h1></a>
+                        <ul class="footer__list">
+                            <li><p>Careers</p></li>
+                            <li><p>Publications</p></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            
-            <div class="footer__block">
-                <p class="footer__about">About</p>
-                <p class="footer__about">Services</p>
-                <p class="footer__about">Projects</p>
-                <p class="footer__about">Blog</p>
-                <p class="footer__about">Contact</p>
-            </div>
-            <div class="footer__box">
-                <p class="footer__link footer__link--wide-m">Team</p>
-                <div class="footer__link">
-                    <p class="footer__feature">Architectural</p>
-                    <p class="footer__feature">Expediting</p>
-                    <p class="footer__feature">Consultant</p>
+            <div class="footer__menu-mobile">
+                <div class="footer__unit-mobile">
+                    <div class="footer__column-mobile">
+                        <h2>About</h2>
+                        <h2>Services</h2>
+                    </div>
                 </div>
-                <div class="footer__link footer__link--margin-m">
-                    <p class="footer__feature">Single Family</p>
-                    <p class="footer__feature">Multi Family</p>
-                    <p class="footer__feature">Mixed Use</p>
-                    <p class="footer__feature">Restaurant</p>
-                    <p class="footer__feature">Hospitality</p>
+                <div class="footer__unit-mobile">
+                    <div class="footer__column-mobile">
+                        <h2>Projects</h2>
+                        <h2>Blog</h2>
+                    </div>
                 </div>
-                <div class="footer__link">
-                    <p class="footer__feature">News</p>
-                    <p class="footer__feature">Case Studies</p>
-                    <p class="footer__feature">Interviews</p>
-                </div>
-                <div class="footer__link">
-                    <p class="footer__feature">Careers</p>
-                    <p class="footer__feature">Publications</p>
+                <div class="footer__unit-mobile">
+                    <div class="footer__column-mobile">
+                       <h2>Contact</h2>
+                    </div>
                 </div>
             </div>
-            <img class="footer__logo" src="desktop/img/logo.png" alt="">
-            <div class="footer__unit">
-                <p>Copyright © 2019</p>
-                <p>All rights reserved.</p>
+            <div class="footer__aside">
+                <div class="footer__links">
+                    <span class="header__facebook"></span>
+                    <span class="header__twitter"></span>
+                    <span class="header__instagram"></span>
+                </div>
+                <div class="footer__block" >
+                    <img class="footer__logo" src="desktop/img/logo.png" alt="">
+                    <div class="footer__rights">
+                        <p>Copyright © 2019</p>
+                        <p>All rights reserved.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
