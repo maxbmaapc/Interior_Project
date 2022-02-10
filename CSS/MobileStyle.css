@@ -2,9 +2,10 @@
 .header__search,
 .header__links,
 .our-service__description,
-.single-family__rectangle,
+.single-family__strip,
+.single-family__background,
 .single-family__circle,
-.our-team__grid,
+.our-team__frame,
 .projects__example,
 .footer__menu {
     display: none;
@@ -15,7 +16,7 @@ body {
     margin: 0 auto;
 }
 .header {
-    height: 446px;
+    height: 490px;
     width: 100%;
     background: transparent url('/mobile/img/image1\ mob.png');
 }
@@ -31,6 +32,7 @@ body {
 .header__article {
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 .header__title {
     margin: 56px 18px auto 16px;
@@ -57,13 +59,14 @@ body {
     width: 100%;
 }
 .our-service__container {
+    padding-top: 40px;
     width: 100%;
     margin: auto;
 }
 .our-service__title {
     display: flex;
     flex-direction: column;
-    margin: 40px auto 40px 15px;
+    margin: 0px auto 40px 15px;
     width: 220px;
     height: 38px;
     text-align: left;
@@ -140,20 +143,19 @@ body {
     opacity: 1;    
 }
 .exposition__container {
-    display: block;
-    width: 100%;
-    height: 1320px;
+    justify-content: unset;
 }
 .exposition__frame {
     height: 500px;
-    width: 320px;
-    background:fixed url('./video/play.png');
+    width: 321px;
+    background: fixed url('./video/play.png');
     margin-bottom: 40px;
 }
 .exposition__block {
     padding: 0 12px 0 10px;
 }
 .exposition__subtitle {
+    text-align: left;
     font: normal normal 800 20px/35px Open Sans;
     letter-spacing: 0.2px;
     margin-bottom: 10px;
@@ -176,8 +178,7 @@ body {
     opacity: 1;
 }
 .single-family__unit {
-    padding: 340px 0 0 15px;
-    margin: 0;
+    padding: 290px 0 0 15px;
     width: 274px;
     height: 214px;
 }
@@ -241,20 +242,18 @@ body {
     font: normal normal normal 16px/22px Open Sans;
     letter-spacing: 0.16px;
 }
-.our-team__grid-mobile {
-    display: block;
-    height: 450px;
+.our-team__grid {
+    margin: 0;
 }
-.our-team__frame-mobile {
-    background: url('/mobile/img/portrait\ 1\ mob.png');
-    height: 310px;
+.our-team__frame--active {
+    display: flex;
+    height: 420px;
 }
 .our-team__audio {
     width: 320px;
 }
 .our-team__name {
     text-align: center;
-    margin-top: 10px;
     width: 100%;
 }
 .our-team__position {
