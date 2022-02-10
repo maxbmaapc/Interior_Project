@@ -1,4 +1,7 @@
 @media (max-width: 1500px) {
+    .header__container {
+        padding: 0 50px 0 50px;
+    }
     .our-team__description {
         margin: 0 auto;
     }
@@ -16,6 +19,7 @@
         font: normal normal 800 30px/40px Open Sans;
 
     }
+    
 }
 @media (max-width: 1080px) {
     .our-team__frame-3,
@@ -26,13 +30,47 @@
     .our-team__work {
         display: none;
     }
-
-    .header__title {
+    .header__article {
+        padding-top: 50px; 
         margin: 0 auto;
+        margin: 9% auto 0px 25%;
+        width: 620px;
     }
-    .header__logo {
+    .header__title {
+        font: normal normal 800 60px/75px Open Sans;
+    }
+    .header__links {
+        margin: -35px 0 0 7%;
+    }
+    .header__button {
+        margin: 121px 0 0 35%;
+    }
+   
+    
+}
+@media (max-width: 950px) {
+    .header__info {
         display: none;
     }
-    
-    
+    .header__article {
+        width: 520px;
+    }
+    .header__title {
+        font: normal normal 800 50px/65px Open Sans;
+    }
+}
+@media (max-width:768px) {
+    .header__article {
+        width: 420px;
+        margin: 9% auto 0px 20%;
+    }
+    .header__title {
+        font: normal normal 800 40px/50px Open Sans;  
+    }
+    .header__paragraph {
+        font: normal normal 600 15px/24px Open Sans;
+    }
+    .our-service__subtitle {
+        font: normal normal 800 25px/40px Open Sans;
+    }
 }

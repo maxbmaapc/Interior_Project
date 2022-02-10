@@ -19,8 +19,18 @@ body {
     width: 100%;
     background: transparent url('/mobile/img/image1\ mob.png');
 }
+.header__container {
+    padding: 0;
+}
 .header__block {
     padding: 23px 15px 0px 19px;
+}
+.header__right-block {
+    margin: 0;
+}
+.header__article {
+    padding: 0;
+    margin: 0;
 }
 .header__title {
     margin: 56px 18px auto 16px;

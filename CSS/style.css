@@ -1,5 +1,5 @@
 * {
-    border: 1px salmon solid;
+   /*  border: 1px salmon solid; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -69,6 +69,7 @@ body {
 }
 .header__right-block {
     display: flex;
+    margin-left: 70px;
 }
 .header__info {
     display: flex;
@@ -94,11 +95,14 @@ body {
 .header__article {
     display: flex;
     flex-direction: column;
-}
-.header__title {
-    margin: 10.2% auto 0px 30.3%;
     width: 100%;
     max-width: 737px;
+    margin: 10.2% auto 0px 30.3%;
+    height: 290px;
+    justify-content: space-between;
+}
+.header__title {
+    width: 100%;
     height: 183px;
     text-align: left;
     font: normal normal 800 72px/85px Open Sans;
@@ -113,7 +117,6 @@ body {
 .header__paragraph {
     width: 439px;
     height: 70px; 
-    margin: 2.3% auto auto 30.3%;
     text-align: left;
     font: normal normal 600 16px/24px Open Sans;
     letter-spacing: 0px;
@@ -451,37 +454,37 @@ body {
     height: 955px;
 }
 .our-team__frame-1 {
-    background: url('/desktop/portraits/portrait\ 1.png');
+    background: transparent url('/desktop/portraits/portrait\ 1.png') 0% 0% no-repeat;
     max-width: 370px;
     width: 100%;
     height: 360px;
 }
 .our-team__frame-2 {
-    background: url('/desktop/portraits/portrait\ 2.png');
+    background: url('/desktop/portraits/portrait\ 2.png') 0% 0% no-repeat;
     max-width: 370px;
     width: 100%;
     height: 360px;
 }
 .our-team__frame-3 {
-    background: url('/desktop/portraits/portrait\ 3.png');
+    background: transparent url('/desktop/portraits/portrait\ 3.png') 0% 0% no-repeat;
     max-width: 370px;
     width: 100%;
     height: 360px;
 }
 .our-team__frame-4 {
-    background: url('/desktop/portraits/portrait\ 4.png');
+    background: transparent url('/desktop/portraits/portrait\ 4.png') 0% 0% no-repeat;
     max-width: 370px;
     width: 100%;
     height: 360px;
 }
 .our-team__frame-5 {
-    background: url('/desktop/portraits/portrait\ 5.png');
+    background: transparent url('/desktop/portraits/portrait\ 5.png') 0% 0% no-repeat;
     max-width: 370px;
     width: 100%;
     height: 360px;
 }
 .our-team__frame-6 {
-    background: url('/desktop/portraits/portrait\ 6.png');
+    background: transparent url('/desktop/portraits/portrait\ 6.png') 0% 0% no-repeat;
     max-width: 370px;
     width: 100%;
     height: 360px;
