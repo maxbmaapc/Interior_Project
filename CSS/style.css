@@ -533,16 +533,19 @@ body {
 }
 .projects {
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: #333333 1px solid;
 }
 .projects__container {
+    margin-top: 161px;
     width: 100%;
+    max-width: 1385px;
     height: 1045px;
     background: #FFFFFF;
     opacity: 1;
-    border-bottom: #333333 1px solid;
 }
 .projects__title {
-    margin: 162px 0 78px 215px;
     width: 295px;
     height: 61px;
     text-align: left;
@@ -554,6 +557,7 @@ body {
 .projects__example {
     display: flex;
     float: right;
+    margin-top: 77px;
     width: 100%;
     max-width: 1385px;
 }
@@ -568,13 +572,7 @@ body {
    max-width: 419px;
    background-size: contain;
 }
-@media  (max-width: 1385px) {
-    .projects__frame-4 {
-        display: none;
-    }
-}
 .projects__img {
-
     max-width: 100%;
 }
 .projects__img:hover {

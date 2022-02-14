@@ -144,6 +144,7 @@ body {
 }
 .exposition__container {
     justify-content: unset;
+    height: 1200px;
 }
 .exposition__frame {
     height: 500px;
@@ -152,6 +153,7 @@ body {
     margin-bottom: 40px;
 }
 .exposition__block {
+    row-gap: 10px;
     padding: 0 12px 0 10px;
 }
 .exposition__subtitle {
@@ -317,7 +319,8 @@ body {
     display: block;
 }
 .projects__container {
-    height: 585px;
+    margin: 0;
+    height: 615px;
 }
 .projects__title {
     margin: 50px 0 0 15px;
