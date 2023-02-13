@@ -7,3 +7,7 @@ Task:
 Admission criteria:
 - Completed code review - the number of attempts to pass the code review, the number of mistakes made from the list of "typical errors" in the document and the number of duplicate errors from the review of past interns will be taken into account.
 - Completed functional review (on desktop and on mobile devices - phone and tablet)
+
+<h1>Designs</h1> 
+
+![interior_project](https://user-images.githubusercontent.com/93668989/218457884-b4443a43-a188-48b7-bb8a-d4ebb2b9cf78.jpg)
